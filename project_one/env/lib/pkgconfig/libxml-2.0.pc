@@ -1,0 +1,13 @@
+prefix=/Users/lucas/Desktop/machine_learning/project_one/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.13.1
+Description: libXML library version2.
+Requires.private:  icu-i18n
+Libs: -L${libdir} -lxml2 
+Libs.private:  -L/Users/lucas/Desktop/machine_learning/project_one/env/lib -lz -L/Users/lucas/Desktop/machine_learning/project_one/env/lib -llzma  -L/Users/lucas/Desktop/machine_learning/project_one/env/lib -liconv    
+Cflags: -I${includedir}/libxml2 -I/Users/lucas/Desktop/machine_learning/project_one/env/include 

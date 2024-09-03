@@ -1,0 +1,11 @@
+prefix=/Users/lucas/Desktop/machine_learning/project_one/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: lcms2
+Description: LCMS Color Management Library
+Version: 2.12
+Libs: -L${libdir} -llcms2 
+Libs.private: -lm -lpthread
+Cflags: -I${includedir}

@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /Users/lucas/Desktop/machine_learning/project_one/env/bin/python -m PyQt5.pylupdate_main ${1+"$@"}
